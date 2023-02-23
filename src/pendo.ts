@@ -21,7 +21,7 @@
     z = e.getElementsByTagName(n)[0];
     z.parentNode.insertBefore(y, z);
   })(window, document, 'script', 'pendo');
-})('df54af19-2d86-4f23-7616-81c1822ecaf3');
+})('');
 
 const PREFIX = 'toolchain.dev.openshift.com/';
 
