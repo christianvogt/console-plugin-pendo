@@ -59,10 +59,10 @@
   "consolePlugin": {
     "name": "console-plugin-template",
     "version": "0.0.1",
-    "displayName": "OpenShift Console Plugin Template",
-    "description": "Template project for OpenShift console plugins. Edit package.json to change this message and the plugin name.",
+    "displayName": "OpenShift Console Pendo Plugin",
+    "description": "Runs pendo on the console.",
     "exposedModules": {
-      "ExamplePage": "./components/ExamplePage"
+      "pendo": "./pendo"
     },
     "dependencies": {
       "@console/pluginAPI": "*"
